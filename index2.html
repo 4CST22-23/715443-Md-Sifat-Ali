@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    table{
+        border-color: blue;
+        border: 2px solid blue ;
+        padding: 5px ;
+        grid-area: 2px ;
+    }
+    #main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        width: fit-content;
+        background: transparent;
+        border: 10px groove rgb(83, 250, 0);
+        top: 0;
+        left: 0;
+        padding: 0 10px ;
+    }
+     #main .skill h1{
+        margin-left: -100px ;
+    }
+    .myhead h1{
+        font-size: 30px ;
+        font-weight: 600;
+    }
+    #main .myhead{
+        display: flex;
+        padding: 10px ;
+        width: 90%;
+        margin-top: 5px ;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #e8f719;
+    }
+    .details, .skill, .language li{
+        font-size: 18px ;
+    }
+</style>
+<body>
+    <section id="main">
+    <div class="myhead" >
+        <h1 >Carikulum Vitha of    <span style="margin-left: 25px ; color: rgb(10, 6, 247);">Md Sifat Ali </span></h1>
+        
+        Email:sifatali8354@gmail.com<br>
+        phone No:01745865544
+    </div>
+    <div class="details">
+        <h1 style="color: rgb(246, 7, 190);">Personal information</h1>
+        <li>Name: Md Sifat ali</li>
+              <li>Collage name: Bogura polytechnic institute</li>
+              <li>Deperment: Computer Science & Technology</li>
+              <li>Semester: 1st</li>
+              <li>Roll: 715443</li>
+              <li>Shift: 1st</li>
+    </div>
+    <div class="skills">
+        <h1 style="margin-left: 140px ; color: rgb(247, 134, 5);">
+            Skills
+        </h1>
+        <ul>
+            <li>Programing Languages: python, c++, Java</li>
+            <li>Web devlopment: Html ,css, php</li>
+            <li>Garphic designing: Adobe Photoshope, Adobe illustrat</li>
+        </ul>
+    </div>
+    <div class="language">
+        <h1 style="color: chartreuse;">Languages</h1>
+        <ul>
+            <li>English</li>
+            <li>Bangla</li>
+            <li>urdu</li>
+            <li>Arabic</li>
+        </ul>
+    </div>
+    <div class="edu">
+<center>        <h1 style="color: rgb(243, 3, 3); font-size: 26px ;">My Educational details </h1> </center> <br>
+        <table border="2">
+            <tr>
+                <th>Univrsity</th>
+                <th>prassing years</th>
+                <th>percentage</th>
+                <th>CGPA</th>
+            </tr>
+            <tr>
+                <td>Bogura polytechnic institute</td>
+                <td>2018</td>
+                <td>95%</td>
+                <td>3.98</td>
+            </tr>
+            <tr>
+                <td>Dhaka Univrsity of Engineering & Technology, Gazipur</td>
+                <td>2022</td>
+                <td>90%</td>
+                <td>3.95</td>
+            </tr>
+        </table>
+        <h1 style="color: rgb(200, 9, 9); font-size: 25px ;" class="skill">Project</h1>
+            <ul style="font-size: 18px ;">
+                <li>This is a web development project in whic in design front end through html and css <br> and backend through.</li>
+                <li>This is a python based project.</li>
+            </ul>
+    </div>
+
+</section>
+</body>
+</html>
